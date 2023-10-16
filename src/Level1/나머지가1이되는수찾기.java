@@ -12,14 +12,18 @@ public class 나머지가1이되는수찾기 {
 
     public int solution(int n) {
         int answer = 0;
+        int x = 0;
 
-
+//        if (n) {
+//
+//            System.out.println(n);
+//        }
 
         return answer;
     }
 
     public static void main(String[] args) {
-        int answer = new 나머지가1이되는수찾기().solution(34354545);
+        int answer = new 나머지가1이되는수찾기().solution(4);
         System.out.println("answer = " + answer);
     }
 }
