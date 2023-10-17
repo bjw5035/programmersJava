@@ -14,20 +14,21 @@ public class 나머지가1이되는수찾기 {
         int answer = 0;
 
 /*
-
+        int answer = 1;
         while (true) {
-            if ((n & answer) == 1) {
+            if (n % answer == 1) {
                 break;
             }
             answer++;
         }
         return answer;
 */
-        for (int i = 0; i < n; i++) {
-            if ((n & answer) == 1) {
+        for (int i = 2; i < n; i++) {
+            if (n % i == 1) {
+                answer = i;
                 break;
             }
-            answer++;
+//            answer++;
         }
         return answer;
     }
