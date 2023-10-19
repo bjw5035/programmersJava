@@ -28,7 +28,6 @@ public class 나머지가1이되는수찾기 {
                 answer = i;
                 break;
             }
-//            answer++;
         }
         return answer;
     }
