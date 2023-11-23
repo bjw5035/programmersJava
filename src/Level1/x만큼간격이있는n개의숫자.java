@@ -13,11 +13,14 @@ public class x만큼간격이있는n개의숫자 {
     * */
 
     public long[] solution(int x, int n) {
-        long[] answer = new long[x];
-        long num = x;
+        // 입력받은 n은 개수이니 배열의 크기로 설정해준다.
+        long[] answer = new long[n];
 
-        for (int i = 0; i < x; i++) {
-
+        // for문을 이용하여 배열의 자릿수만큼 반복한다.(i < n;의 조건문은 i<answer.length;와 동일)
+        for (int i = 0; i < n; i++) {
+            // answer배열의 0번 인덱스부터 (i+1) * x 를 대입해 주면, 출력 결과처럼 입력받은 x만큼 증가하여 출력된다.
+            // (i + 1) * x 앞에 (long)형으로 형변환 해줘야함.
+            answer[i] = (long) (i + 1) * x;
         }
         return answer;
     }
