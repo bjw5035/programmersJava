@@ -1,4 +1,4 @@
-package Level1;
+package problems.Level1;
 
 public class 평균구하기 {
 

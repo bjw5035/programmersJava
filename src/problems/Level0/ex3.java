@@ -1,4 +1,4 @@
-package Level0;
+package problems.Level0;
 
 import java.util.Scanner;
 

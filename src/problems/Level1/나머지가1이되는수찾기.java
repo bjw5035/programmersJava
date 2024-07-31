@@ -1,4 +1,4 @@
-package Level1;
+package problems.Level1;
 
 public class 나머지가1이되는수찾기 {
 

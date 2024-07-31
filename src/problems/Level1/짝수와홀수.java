@@ -1,4 +1,4 @@
-package Level1;
+package problems.Level1;
 
 public class 짝수와홀수 {
     /*
