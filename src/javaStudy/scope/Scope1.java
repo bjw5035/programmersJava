@@ -1,4 +1,4 @@
-package javaStudy;
+package javaStudy.scope;
 
 public class Scope1 {
 
